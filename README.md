@@ -1,36 +1,39 @@
-Bienvenidos al repositorio LoginApp
+## Bienvenidos al repositorio LoginApp
 Proyecto final
 
 Para tener en cuenta, con antipación instalar los componentes necesarios para el proyecto:
 
-"Component Install"
+*"Component Install"*
 
 Una ves ejecutado este comando se creará la carpeta loginApp con los bucles y códigos de terceros.
 
-- mkdir LoginApp -cd LoginApp -npm install
+*- mkdir LoginApp
+-cd LoginApp
+-npm install*
 
-Introducción:
+**Introducción:**
 
-Este proyecto se crea inicalmente para complementar el final del proyecto de un taller de vehículos, el cual tiene como objetivo implementar un sistema que permita la gestión diferentes puntos de negocio:
+Este proyecto se crea inicalmente para complementar el final del proyecto de un taller de vehículos, el cual tiene como objetivo implementar un sistema que permita la gestión  diferentes puntos de negocio:
+1. Vehículos en reparación
+2. Propietario del vehículo
+3. Detalle reparación del vehículo
+4. Repuestos usados para la reparación
+5. Costos de la reparación
+6. Vehículos reparados por técnico
+7. Técnicos
+8. Estados financieros por mes
 
-Vehículos en reparación
-Propietario del vehículo
-Detalle reparación del vehículo
-Repuestos usados para la reparación
-Costos de la reparación
-Vehículos reparados por técnico
-Técnicos
-Estados financieros por mes
-Para descargar da click en el siguiente link
+Para descargar da click en el siguiente [link](https://github.com/Cha5/LoginApp "link")
 
-Inicio
+### Inicio
 Una vez que descargues el repositorio ejecutalo y publicalo en un navegaror para iniciar.
 
-- ng serve -o
+*- ng serve -o*
 
-Contenido
+*Contenido*
 
-Home.component.ts
+### Home.component.ts
+```
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
@@ -55,7 +58,9 @@ export class HomeComponent implements OnInit {
   }
 
 }
-Login.component.ts
+```
+### Login.component.ts
+```
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgForm } from '@angular/forms';
@@ -126,7 +131,10 @@ export class LoginComponent implements OnInit {
   }
 
 }
-Registro.component.ts
+```
+
+### Registro.component.ts
+```
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgForm } from '@angular/forms';
@@ -188,12 +196,22 @@ export class RegistroComponent implements OnInit {
 
 
 }
-Cuentas
-Crear una cuenta en Github
-Crear una cuenta en Firebase
-Crear una cuenta en Heroku
-Código PhP:
-Javascript　
+```
+### Cuentas
+
+##### Crear una cuenta en [Github](https://github.com/ "Github")
+
+##### Crear una cuenta en [Firebase](https://firebase.google.com/ "Firebase")
+
+##### Crear una cuenta en [Heroku](https://id.heroku.com/login "Heroku")
+
+
+### Código PhP: <?php require_once("index.html") ?>
+
+
+#### Javascript　
+
+```
 function test(){
 	console.log("Hello world!");
 }
@@ -230,7 +248,11 @@ function test(){
 
 var testBox = box();
 testBox.add("jQuery").remove("jQuery");
-HTML code
+```
+
+#### HTML code
+
+```
 <!DOCTYPE html>
 <html>
     <head>
@@ -241,6 +263,7 @@ HTML code
         <h1>Hello world!</h1>
     </body>
 </html>
+```
 
 
 ![](https://github.com/Klerith/angular-login-demoapp/blob/master/src/assets/images/demo.png?raw=true)
