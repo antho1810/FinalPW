@@ -20,7 +20,7 @@ Este proyecto se crea inicalmente para complementar el final del proyecto de un 
 Para descargar da click en el siguiente [link](https://github.com/antho1810/FinalPW.git "link")
 
 ### Inicio
-Una vez que descargues el repositorio, descomprimelo en tu escritorio o donde quieras, entras a la carpeta le das click derecho, abre el cmd del administrador e ingresas estos comandos:
+Una vez que descargues el repositorio, descomprimelo en tu escritorio o donde quieras, entras a la carpeta, le das click derecho, abre el cmd del administrador e ingresas estos comandos:
 ```
 cd LoginApp
 
