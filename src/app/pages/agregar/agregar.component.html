@@ -1,0 +1,105 @@
+<h1>Vehiculo <small>Nuevo</small></h1>
+<hr>
+
+<div class="row text-right">
+    <div class="col">
+        <button class="btn btn-danger" [routerLink]="['/vehiculos']">
+            <i class="fa fa-arrow-left"></i>
+            Regresar
+        </button>
+    </div>
+</div>
+
+<div class="row animated fadeIn faster">
+    <div class="col">
+
+        <form (ngSubmit)="guardar( f )" #f="ngForm">
+
+            <div class="form-group">
+                <label>Firebase ID</label>
+                <input type="text" class="form-control" placeholder="Firebase ID" [(ngModel)]="vehiculo.id" name="id" disabled="disabled">
+                <small class="form-text text-muted">Este campo es autogenerado</small>
+            </div>
+
+            <div class="form-group">
+                <label>Cedula del Propietario</label>
+                <input type="number" class="form-control" placeholder="Cedula del propietario" [(ngModel)]="vehiculo.Cedula" name="Cedula" required>
+
+            </div>
+
+
+            <div class="form-group">
+                <label>Propietario</label>
+                <input type="text" class="form-control" placeholder="Dueño del Vehiculo" [(ngModel)]="vehiculo.Propietario" name="Propietario" required>
+
+            </div>
+
+            <div class="form-group">
+                <label>Marca</label>
+                <input type="text" class="form-control" placeholder="Marca del Vehiculo" [(ngModel)]="vehiculo.Marca" name="Marca" required>
+
+            </div>
+
+            <div class="form-group">
+                <label>Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre del Vehiculo" [(ngModel)]="vehiculo.Nombre" name="Nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label>Placa</label>
+                <input type="text" class="form-control" placeholder="Placa del vehiculo" [(ngModel)]="vehiculo.Placa" name="Placa" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Tipo</label>
+                <input type="text" class="form-control" placeholder="Tipo de vehiculo" [(ngModel)]="vehiculo.Tipo" name="Tipo" required>
+            </div>
+
+            <div class="form-group">
+                <label>Color</label>
+                <input type="text" class="form-control" placeholder="Color del vehiculo" [(ngModel)]="vehiculo.Color" name="Color" required>
+            </div>
+
+            <div class="form-group">
+                <label>Reparaciones</label>
+                <input type="text" class="form-control" placeholder="Reparaciones del vehiculo" [(ngModel)]="vehiculo.Reparacion" name="Reparacion" required>
+            </div>
+
+            <div class="form-group">
+                <label>Creación/Actualizacion</label>
+                <input type="text" class="form-control" placeholder="Nombre de Usuario" [(ngModel)]="vehiculo.Usuario"name="Usuario" required>
+            </div>
+
+            <div class="form-group">
+                <label>Reparado</label>
+                <br>
+
+                <button *ngIf="vehiculo.Reparado"
+                        (click)="vehiculo.Reparado = true" 
+                        class="btn btn-outline-success w-50" 
+                        type="button">
+                        <i class="fa fa-smile-wink"></i>
+                        Si</button>
+                <button *ngIf="vehiculo.Reparado" 
+                        (click)="vehiculo.Reparado = false" 
+                        class="btn btn-outline-danger w-50" 
+                        type="button"> 
+                        <i class="fa fa-dizzy"></i>
+                        No</button>
+
+            </div>
+
+            <hr>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary w-25">
+                    <i class="fa fa-save"></i>
+                    Guardar
+                </button>
+
+            </div>
+
+
+        </form>
+
+    </div>
+</div>

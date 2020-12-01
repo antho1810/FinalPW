@@ -1,7 +1,7 @@
-<h1>Listado de Propietarios</h1>
+<h1>Listado de Vehiculos</h1>
 <hr>
 
-<div class="row">
+<div class="row mt-2">
     <div class="col text-right ">
         <button routerLink="/Add/nuevo" class="btn btn-primary">
             <i class="fa fa-plus"></i>
@@ -10,11 +10,10 @@
     </div>
 </div>
 
-<table class="table mt-3 animated fadeIn faster">
+<table *ngIf="!cargando && vehiculos.length > 0" class="table mt-3 animated fadeIn faster">
     <thead class="thead-dark">
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Cedula</th>
             <th scope="col">Propietario</th>
             <th scope="col">Marca</th>
             <th scope="col">Nombre</th>
@@ -30,7 +29,6 @@
     <tbody>
         <tr *ngFor="let vehiculo of vehiculos; let i = index">
             <th scope="row">{{i+1}}</th>
-            <td>{{vehiculo.Cedula}}</td>
             <td>{{vehiculo.Propietario}}</td>
             <td>{{vehiculo.Marca}}</td>
             <td>{{vehiculo.Nombre}}</td>

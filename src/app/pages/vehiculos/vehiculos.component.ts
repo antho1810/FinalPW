@@ -5,11 +5,11 @@ import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-propietarios',
-  templateUrl: './propietarios.component.html',
-  styleUrls: ['./propietarios.component.css']
+  selector: 'app-vehiculos',
+  templateUrl: './vehiculos.component.html',
+  styleUrls: ['./vehiculos.component.css']
 })
-export class PropietariosComponent implements OnInit {
+export class VehiculosComponent implements OnInit {
 
   vehiculos: VehiculoModel[] = [];
   cargando = false;
@@ -35,7 +35,6 @@ export class PropietariosComponent implements OnInit {
       icon: 'question',
       showConfirmButton: true,
       showCancelButton: true
-    
     }).then(resp => {
 
       if (resp.value) {
@@ -44,6 +43,7 @@ export class PropietariosComponent implements OnInit {
       }
 
     });
+
   }
 
   verVehiculo(idx: number) {

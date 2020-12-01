@@ -10,6 +10,10 @@ import { RegistroComponent } from './pages/registro/registro.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PropietariosComponent } from './pages/propietarios/propietarios.component';
+import { AgregarComponent } from './pages/agregar/agregar.component';
+import { VehiculosComponent } from './pages/vehiculos/vehiculos.component';
+import { DetalleComponent } from './pages/detalle/detalle.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { PropietariosComponent } from './pages/propietarios/propietarios.compone
     RegistroComponent,
     HomeComponent,
     LoginComponent,
-    PropietariosComponent
+    PropietariosComponent,
+    AgregarComponent,
+    VehiculosComponent,
+    DetalleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
