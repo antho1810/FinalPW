@@ -213,7 +213,7 @@ export class RegistroComponent implements OnInit {
 ![Agregar vehiculo](src/assets/images/demoagregar1.png?raw=true)
 ![](src/assets/images/demoagregar2.png?raw=true)
 
-![Registro](src/assets/demoRegistro.png?raw=true)
+![Registro](src/assets/images/demoRegistro.png?raw=true)
 ![Login](src/assets/demo.png?raw=true)
 Este home es lo que le sigue despues del login, apenas tu le das en el boton ingresar que esta en el login, te llevará a está pagina.
-![Home](src/assets/demoHome.png?raw=true)
+![Home](src/assets/images/demoHome.png?raw=true)
