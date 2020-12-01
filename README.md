@@ -28,7 +28,7 @@ npm install
 
 ```
 
-luego ejecuta este comando y el mismo se abrira en el navegador que estes utilizando.
+Luego ejecuta este comando y el mismo se abrira en el navegador que estes utilizando.
 ```
 ng serve -o
 
