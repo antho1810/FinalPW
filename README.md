@@ -264,6 +264,10 @@ testBox.add("jQuery").remove("jQuery");
     </body>
 </html>
 ```
+![Lista vehiculos](demolistavehi.png)
+![Lista propietarios](demolistapropi.png)
+![Agregar vehiculo](demoagregar1.png)
+![](demoagregar2.png)
 
 
 ![](https://github.com/Klerith/angular-login-demoapp/blob/master/src/assets/images/demo.png?raw=true)
