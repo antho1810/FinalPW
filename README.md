@@ -5,12 +5,6 @@ Para tener en cuenta, con antipación instalar los componentes necesarios para e
 
 *"Component Install"*
 
-Una ves ejecutado este comando se creará la carpeta loginApp con los bucles y códigos de terceros.
-
-*- mkdir LoginApp
--cd LoginApp
--npm install*
-
 **Introducción:**
 
 Este proyecto se crea inicalmente para complementar el final del proyecto de un taller de vehículos, el cual tiene como objetivo implementar un sistema que permita la gestión  diferentes puntos de negocio:
@@ -23,14 +17,23 @@ Este proyecto se crea inicalmente para complementar el final del proyecto de un 
 7. Técnicos
 8. Estados financieros por mes
 
-Para descargar da click en el siguiente [link](https://github.com/Cha5/LoginApp "link")
+Para descargar da click en el siguiente [link](https://github.com/antho1810/FinalPW.git "link")
 
 ### Inicio
-Una vez que descargues el repositorio ejecutalo y publicalo en un navegaror para iniciar.
+Una vez que descargues el repositorio, descomprimelo en tu escritorio o donde quieras, entras a la carpeta le das click derecho, abre el cmd del administrador e ingresas estos comandos:
+```
+cd LoginApp
 
-*- ng serve -o*
+npm install
 
-*Contenido*
+```
+
+Luego ejecuta este comando y el mismo se abrira en el navegador que estes utilizando.
+```
+ng serve -o
+
+```
+# Contenido
 
 ### Home.component.ts
 ```
@@ -205,65 +208,10 @@ export class RegistroComponent implements OnInit {
 
 ##### Crear una cuenta en [Heroku](https://id.heroku.com/login "Heroku")
 
-
-### Código PhP: <?php require_once("index.html") ?>
-
-
-#### Javascript　
-
-```
-function test(){
-	console.log("Hello world!");
-}
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
-```
-
-#### HTML code
-
-```
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
-```
+![Lista vehiculos](src/assets/images/demolistavehi.png?raw=true)
+![Lista propietarios](src/assets/images/demolistapropi.png?raw=true)
+![Agregar vehiculo](src/assets/images/demoagregar1.png?raw=true)
+![](src/assets/images/demoagregar2.png?raw=true)
 
 
-![](https://github.com/Klerith/angular-login-demoapp/blob/master/src/assets/images/demo.png?raw=true)
+![](src/assets/demo.png?raw=true)
