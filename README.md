@@ -25,13 +25,11 @@ Una vez que descargues el repositorio, descomprimelo en tu escritorio o donde qu
 cd LoginApp
 
 npm install
-
 ```
 
 Luego ejecuta este comando y el mismo se abrira en el navegador que estes utilizando.
 ```
 ng serve -o
-
 ```
 # Contenido
 
