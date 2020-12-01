@@ -264,10 +264,10 @@ testBox.add("jQuery").remove("jQuery");
     </body>
 </html>
 ```
-![Lista vehiculos](demolistavehi.png)
-![Lista propietarios](demolistapropi.png)
-![Agregar vehiculo](demoagregar1.png)
-![](demoagregar2.png)
+![Lista vehiculos](src/assets/images/demolistavehi.png?raw=true)
+![Lista propietarios](src/assets/images/demolistapropi.png?raw=true)
+![Agregar vehiculo](src/assets/images/demoagregar1.png?raw=true)
+![](src/assets/images/demoagregar2.png?raw=true)
 
 
 ![](https://github.com/Klerith/angular-login-demoapp/blob/master/src/assets/images/demo.png?raw=true)
