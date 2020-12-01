@@ -23,7 +23,7 @@ Este proyecto se crea inicalmente para complementar el final del proyecto de un 
 7. Técnicos
 8. Estados financieros por mes
 
-Para descargar da click en el siguiente [link](https://github.com/Cha5/LoginApp "link")
+Para descargar da click en el siguiente [link](https://github.com/Cha5/LoginApp "link") [link](https://github.com/antho1810/FinalPW.git "link")
 
 ### Inicio
 Una vez que descargues el repositorio ejecutalo y publicalo en un navegaror para iniciar.
