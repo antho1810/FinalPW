@@ -1,10 +1,10 @@
-## Bienvenidos al repositorio LoginApp
+## Bienvenidos al Repositorio Gestión de Taller de Vehículos
 
 ### Proyecto final
 
 **Introducción:**
 
-Este proyecto se crea inicalmente para complementar el final del proyecto de un taller de vehículos, el cual tiene como objetivo implementar un sistema que permita la gestión  diferentes puntos de negocio:
+Este proyecto se crea inicalmente para complementar el final del proyecto de un taller de vehículos por una empresa, el cual tiene como objetivo implementar un sistema que permita la gestión de diferentes puntos de negocio:
 1. Vehículos en reparación
 2. Propietario del vehículo
 3. Detalle reparación del vehículo
@@ -14,20 +14,12 @@ Este proyecto se crea inicalmente para complementar el final del proyecto de un 
 7. Técnicos
 8. Estados financieros por mes
 
-Para descargar da click en el siguiente [link](https://github.com/antho1810/FinalPW.git "link")
+
 
 ### Inicio
-Una vez que descargues el repositorio, descomprimelo en tu escritorio o donde quieras, entras a la carpeta, le das click derecho, abre el cmd del administrador e ingresas estos comandos:
-```
-cd LoginApp
+Una vez desarrollado el repositorio, se empieza creando el login por el cual el usuario hace su registro y a su vez crea un perfil en el taller de vehículos.
 
-npm install
-```
 
-Luego ejecuta este comando y el mismo se abrira en el navegador que estes utilizando.
-```
-ng serve -o
-```
 # Contenido
 
 ### Home.component.ts
@@ -212,3 +204,6 @@ export class RegistroComponent implements OnInit {
 ![Login](src/assets/demo.png?raw=true)
 ### Este home es lo que le sigue despues del login, apenas tu le das en el boton ingresar que esta en el login, te llevará a está pagina.
 ![Home](src/assets/images/demoHome.png?raw=true)
+
+
+Descaga del proyecto:[link](https://github.com/antho1810/FinalPW.git "link")
