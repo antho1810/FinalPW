@@ -1,10 +1,11 @@
-## Bienvenidos al Repositorio Gestión de Taller de Vehículos
+# Bienvenidos al Repositorio Gestión de Taller de Vehículos
 
-### Proyecto final
+## Proyecto final
 
-**Introducción:**
+### Introducción:
 
-Este proyecto se crea inicalmente para complementar el final del proyecto de un taller de vehículos por una empresa, el cual tiene como objetivo implementar un sistema que permita la gestión de diferentes puntos de negocio:
+Este proyecto se crea inicialmente para complementar el final del proyecto de un taller de vehículos por una empresa, el cual tiene como objetivo implementar un sistema que permita la gestión de diferentes puntos de negocio:
+
 1. Vehículos en reparación
 2. Propietario del vehículo
 3. Detalle reparación del vehículo
@@ -14,9 +15,26 @@ Este proyecto se crea inicalmente para complementar el final del proyecto de un 
 7. Técnicos
 8. Estados financieros por mes
 
-
-
 ### Inicio
+
+Una vez que descargues el repositorio(está al final del readme), descomprime la donde quieres tenerla, entra a la carpeta que se descomprime, entra al administrador de consola y le ingresas este comando para instalar los bucles y códigos de terceros.
+
+#### Esto es por si acaso descomprime el repositorio en otra carpeta y abrió el administrador de consola desde ella.
+
+```
+cd FinalPW-main
+```
+#### Este es el comando para instalar los bucles y códigos de terceros.
+
+```
+npm install
+```
+#### Una vez que hayas instalado este paquete, ejecutalo con este comando.
+
+```
+ ng serve -o*
+```
+
 Una vez desarrollado el repositorio, se empieza creando el login por el cual el usuario hace su registro y a su vez crea un perfil en el taller de vehículos.
 
 
