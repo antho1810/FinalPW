@@ -17,7 +17,7 @@ Este proyecto se crea inicialmente para complementar el final del proyecto de un
 
 ### Inicio
 
-Una vez que descargues el repositorio(está al final del readme), descomprime la donde quieres tenerla, entra a la carpeta que se descomprime, entra al administrador de consola y le ingresas este comando para instalar los bucles y códigos de terceros.
+Una vez que descargues el proyecto (está al final del readme), descomprime la donde quieres tenerla, entra a la carpeta que se descomprime, entra al administrador de consola y le ingresas este comando para instalar los bucles y códigos de terceros.
 
 #### Esto es por si acaso descomprime el repositorio en otra carpeta y abrió el administrador de consola desde ella.
 
@@ -213,15 +213,16 @@ export class RegistroComponent implements OnInit {
 
 ##### Crear una cuenta en [Heroku](https://id.heroku.com/login "Heroku")
 
-![Lista vehiculos](src/assets/images/demolistavehi.png?raw=true)
-![Lista propietarios](src/assets/images/demolistapropi.png?raw=true)
-![Agregar vehiculo](src/assets/images/demoagregar1.png?raw=true)
-![](src/assets/images/demoagregar2.png?raw=true)
-
+##Login
 ![Registro](src/assets/images/demoRegistro.png?raw=true)
 ![Login](src/assets/demo.png?raw=true)
 ### Este home es lo que le sigue despues del login, apenas tu le das en el boton ingresar que esta en el login, te llevará a está pagina.
 ![Home](src/assets/images/demoHome.png?raw=true)
 
+##ListaCRUD
+![Lista vehiculos](src/assets/images/demolistavehi.png?raw=true)
+![Lista propietarios](src/assets/images/demolistapropi.png?raw=true)
+![Agregar vehiculo](src/assets/images/demoagregar1.png?raw=true)
+![](src/assets/images/demoagregar2.png?raw=true)
 
 Descaga del proyecto: [link](https://github.com/antho1810/FinalPW.git "link")
