@@ -1,9 +1,6 @@
 ## Bienvenidos al repositorio LoginApp
-Proyecto final
 
-Para tener en cuenta, con antipación instalar los componentes necesarios para el proyecto:
-
-*"Component Install"*
+### Proyecto final
 
 **Introducción:**
 
