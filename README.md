@@ -206,4 +206,4 @@ export class RegistroComponent implements OnInit {
 ![Home](src/assets/images/demoHome.png?raw=true)
 
 
-Descaga del proyecto:[link](https://github.com/antho1810/FinalPW.git "link")
+Descaga del proyecto: [link](https://github.com/antho1810/FinalPW.git "link")
