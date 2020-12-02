@@ -29,10 +29,10 @@ cd FinalPW-main
 ```
 npm install
 ```
-#### Una vez que hayas instalado este paquete, ejecutalo con este comando.
+#### Una vez que se haya instalado este paquete, ejecuta este comando.
 
 ```
- ng serve -o*
+ ng serve -o
 ```
 
 Una vez desarrollado el repositorio, se empieza creando el login por el cual el usuario hace su registro y a su vez crea un perfil en el taller de vehículos.
